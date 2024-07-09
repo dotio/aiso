@@ -1,0 +1,12 @@
+.root {
+  max-width: rem(476px);
+  margin-top: 36px;
+}
+
+.channel {
+  padding: 24px;
+  background: var(--mantine-color-gray-0);
+  border-radius: 12px;
+  font-size: 18px;
+  font-weight: 500;
+}

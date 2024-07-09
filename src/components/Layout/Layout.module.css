@@ -1,0 +1,22 @@
+.root {
+  display: flex;
+  height: 100vh;
+  align-items: stretch;
+  width: 100%;
+  overflow: hidden;
+}
+
+.sideLeft {
+  position: sticky;
+  top: 0;
+  flex-grow: 0;
+  flex-shrink: 0;
+  height: 100vh;
+  border-right: 1px solid #D7E0E3;
+}
+
+.body {
+  flex-grow: 1;
+  padding: 24px 0 0 36px;
+  overflow: hidden;
+}

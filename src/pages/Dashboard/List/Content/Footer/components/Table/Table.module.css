@@ -1,0 +1,21 @@
+.thead {
+  background: var(--mantine-color-blue-0);
+  color: var(--mantine-color-gray-6);
+  font-size: 14px;
+}
+
+.th1 {
+  border-radius: 12px 0 0 12px;
+}
+
+.th4 {
+  border-radius: 0 12px 12px 0;
+}
+
+.body {
+  &:nth-child(even) {
+    background: var(--mantine-color-gray-1);
+  }
+
+  font-size: 14px;
+}

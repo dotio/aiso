@@ -1,0 +1,33 @@
+.container {
+  background-color: var(--mantine-color-gray-0);
+  border-radius: 8px !important;
+  height: 42px !important;
+
+  &::before {
+    border: none !important;
+  }
+
+  &:not([data-active]) {
+    border: none !important;
+  }
+}
+
+.tabs {
+  font-size: 14px;
+  color: var(--mantine-color-gray-6);
+  border: none;
+  margin: 4px 6px;
+  border-radius: 8px;
+
+  &:disabled {
+    background: var(--mantine-color-gray-3);
+    color: var(--mantine-color-gray-8);
+  }
+}
+
+.tabs_active {
+  background-color: var(--mantine-color-blue-4);
+  color: #fff;
+  margin: 4px 6px;
+  font-weight: 500;
+}

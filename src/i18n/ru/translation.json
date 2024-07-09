@@ -1,0 +1,49 @@
+{
+  "main": {
+    "title": "Главная"
+  },
+  "sign_in": {
+    "title": "Войти в систему",
+    "request_code": {
+      "email": {
+        "title": "Введите Ваш адрес электронной почты",
+        "description": "Мы отправим вам 6-и значный код верифакации",
+        "placeholder": "joe@example.org"
+      },
+      "phone": {
+        "title": "Введите Ваш номер телефона",
+        "description": "Мы отправим вам 6-и значный код верифакации",
+        "placeholder": "+7 (987) 654-32-10"
+      },
+      "submit": "Получить код"
+    },
+    "verify_code": {
+      "title": "Код верификации",
+      "description": "Введите код отправленный на номер {{address}}",
+      "placeholder": "* * * * * *",
+      "submit": "Войти",
+      "cancel": "Отмена",
+      "repeat_wait": "Повторить отправку через {{time}} сек",
+      "repeat_submit": "Отправить код повторно"
+    }
+  },
+  "sign_up": {
+    "title": "Регистрация"
+  },
+  "assistants": {
+    "channel": {
+      "name": "Интеграция",
+      "name_telegram": "Телеграм",
+      "name_whatsapp": "WhatsApp",
+      "name_jivo": "JivoSite",
+      "name_vk": "VK",
+      "name_jira": "Jira"
+    },
+    "status": {
+      "description": "Статус",
+      "description_idle": "Остановлен",
+      "description_started": "Запущен",
+      "description_rejected": "Ошибка при запуске"
+    }
+  }
+}

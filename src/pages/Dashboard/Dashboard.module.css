@@ -1,0 +1,46 @@
+.root {
+  display: grid;
+  grid-template-rows: 72px min-content 1fr;
+  grid-template-columns: auto 1fr min-content;
+  column-gap: 0;
+  grid-template-areas:
+    "sideLeft header sideRight"
+    "sideLeft topContent sideRight"
+    "sideLeft bottomContent sideRight"
+  ;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.sideLeft {
+  grid-area: sideLeft;
+  width: 0;
+
+  &:not(:empty) {
+    width: 360px;
+    border-right: 1px solid #DDD;
+  }
+}
+
+.header {
+  grid-area: header;
+}
+
+.topContent {
+  grid-area: topContent;
+}
+
+.bottomContent {
+  grid-area: bottomContent;
+  overflow: hidden;
+}
+
+.sideRight {
+  grid-area: sideRight;
+
+  &:not(:empty) {
+    width: 320px;
+    border-left: 1px solid #DDD;
+  }
+}

@@ -1,0 +1,18 @@
+.root {
+  padding-right: 36px;
+  min-height: 100vh;
+  overflow: auto;
+  height: 100vh;
+}
+
+.empty {
+  padding-right: 36px;
+  min-height: 100vh;
+  overflow: auto;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+

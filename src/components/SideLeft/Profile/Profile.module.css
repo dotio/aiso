@@ -1,0 +1,30 @@
+.root {
+  margin-top: 10px;
+}
+
+.link {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: rem(42);
+  height: rem(42);
+  color: var(--mantine-color-gray-6);
+  border-radius: var(--mantine-radius-md);
+  transition: all 0.3s linear;
+  border: none;
+
+  svg {
+    width: rem(24);
+    height: rem(24);
+    stroke-width: 1.5;
+  }
+
+  & + & {
+    margin-top: var(--mantine-spacing-sm);
+  }
+}
+
+.active, .link:hover {
+  color: var(--mantine-color-blue-8);
+}

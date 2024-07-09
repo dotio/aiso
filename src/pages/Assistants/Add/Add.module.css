@@ -1,0 +1,135 @@
+.root {
+  overflow: auto;
+  height: calc(100vh - 100px);
+  padding-bottom: 50px;
+}
+
+.content {
+  width: 100%;
+  padding: var(--mantine-spacing-lg) 0;
+}
+
+.body {
+  display: grid;
+  grid-template-columns: 676px 376px;
+  grid-template-rows: auto 1fr;
+  gap: 16px;
+}
+
+.mainContent {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 24px;
+  border-radius: 1rem;
+  border: 1px solid #d7e0e3;
+}
+
+.sourceSelection {
+  background: #fff;
+  padding: 24px;
+  border-radius: 1rem;
+  border: 1px solid #d7e0e3;
+}
+
+.sectionTitle {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.sources {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.source {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 160px;
+  height: 120px;
+  background: #f6f7fa;
+  border-radius: 12px;
+  cursor: pointer;
+  position: relative;
+}
+
+.active_source {
+  background: #ebf3fc;
+}
+
+.saveSection {
+  display: flex;
+  flex-direction: column;
+  height: fit-content;
+  background: #f6f7fa;
+  padding: 24px;
+  border-radius: 1rem;
+  position: sticky;
+  top: 0;
+  flex-grow: 0;
+  flex-shrink: 0;
+}
+
+.checkIcon {
+  position: absolute;
+  bottom: -4px;
+  right: -4px;
+}
+
+.buttons {
+  display: flex;
+  margin-top: 36px;
+  align-items: center;
+  gap: 12px;
+}
+
+.cancel_btn:disabled {
+  font-size: 16px;
+  color: #778084;
+  background: #fff;
+  pointer-events: none;
+
+  &:hover {
+    color: #778084;
+    background: #fff;
+  }
+}
+
+.cancel_btn {
+  font-size: 16px;
+  color: #778084;
+  background: #fff;
+
+  &:hover {
+    color: #778084;
+    background: #fff;
+  }
+}
+
+.save_btn:disabled {
+  font-size: 16px;
+  background: #E9485A;
+  opacity: .6;
+  color: #778084;
+  pointer-events: none;
+
+  &:hover {
+    color: #778084;
+    background: #E9485A;
+  }
+}
+
+.save_btn {
+  font-size: 16px;
+  background: #E9485A;
+  color: #fff;
+
+  &:hover {
+    color: #fff;
+    background: #E9485A;
+  }
+}

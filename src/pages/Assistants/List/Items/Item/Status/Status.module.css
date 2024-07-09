@@ -1,0 +1,18 @@
+.root {
+  font-size: var(--mantine-font-size-sm);
+  /* font-weight: 500; */
+  color: var(--mantine-color-dimmed);
+  line-height: 1.2;
+}
+
+.idle {
+  color: var(--mantine-color-yellow-7);
+}
+
+.started {
+  color: var(--mantine-color-green-7);
+}
+
+.rejected {
+  color: var(--mantine-color-red-7);
+}

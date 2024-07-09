@@ -1,0 +1,9 @@
+.root {}
+
+.input {
+  width: 100%;
+}
+
+.add {
+  cursor: pointer;
+}

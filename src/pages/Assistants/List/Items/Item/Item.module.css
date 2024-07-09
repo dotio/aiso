@@ -1,0 +1,29 @@
+.root {
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+  gap: 24px;
+  border: 1px solid var(--mantine-color-gray-4);
+  padding: 16px;
+  border-radius: 12px;
+  text-decoration: none;
+  color: inherit;
+}
+
+.description {
+  grid-area: description;
+  align-self: center;
+  font-size: var(--mantine-font-size-sm);
+  color: var(--mantine-color-dimmed);
+  line-height: 1.5;
+}
+
+.avatar {
+  & > svg {
+    width: rem(28);
+    height: rem(28);
+    stroke-width: 1;
+  }
+}
+
+

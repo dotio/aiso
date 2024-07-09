@@ -1,0 +1,58 @@
+.root {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: var(--mantine-spacing-xs);
+  color: inherit;
+  position: relative;
+
+  background-color: var(--mantine-color-gray-0);
+  border-radius: var(--mantine-radius-lg);
+
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.line {
+  position: absolute;
+  right: -21px;
+  width: 8px;
+  height: 29px;
+  background: var(--mantine-color-blue-4);
+  border-radius: var(--mantine-radius-lg);
+}
+
+.active {
+  background-color: var(--mantine-color-blue-0);
+
+  .name {
+    color: var(--mantine-color-blue-4);
+  }
+
+  .type {
+    grid-area: type;
+    align-self: center;
+    justify-self: center;
+    color: var(--mantine-color-blue-4);
+  }
+}
+
+.name {
+  grid-area: name;
+  font-size: var(--mantine-font-size-sm);
+  font-weight: 500;
+  line-clamp: 1;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 239px;
+}
+
+.type {
+  display: flex;
+  align-self: center;
+  justify-self: center;
+  color: var(--mantine-color-gray-5);
+}

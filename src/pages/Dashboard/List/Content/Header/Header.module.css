@@ -1,0 +1,10 @@
+.root {
+  border: 1px solid var(--mantine-color-gray-3);
+  padding: 16px;
+  border-radius: 8px;
+  margin-top: 16px;
+}
+
+.element {
+  border-radius: 16px;
+}

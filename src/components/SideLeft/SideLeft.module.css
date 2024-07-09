@@ -1,0 +1,19 @@
+.root {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 112px;
+  padding: 36px 0;
+  gap: 56px;
+}
+
+.top {
+}
+
+.body {
+  flex-grow: 1;
+}
+
+.footer {
+  align-self: center;
+}

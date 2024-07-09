@@ -1,0 +1,16 @@
+.root {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.header {
+  flex-grow: 0;
+  flex-shrink: 0;
+  height: 96px;
+  border-bottom: 1px solid #DDD;
+}
+
+.body {
+  flex-grow: 1;
+}

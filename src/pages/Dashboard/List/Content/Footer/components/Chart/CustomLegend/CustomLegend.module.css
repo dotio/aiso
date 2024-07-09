@@ -1,0 +1,24 @@
+.legend {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  position: absolute;
+  left: 40px;
+  top: 5px;
+}
+
+.legend_item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  border: 1px solid #d7e0e3;
+  border-radius: 8px;
+  padding: 6px 8px;
+  cursor: pointer;
+}
+
+.legend_color_box {
+  width: 16px;
+  height: 16px;
+  border-radius: 4px;
+}

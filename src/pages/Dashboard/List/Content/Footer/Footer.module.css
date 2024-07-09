@@ -1,0 +1,9 @@
+.root {
+  position: relative;
+}
+
+.table{
+  overflow: auto;
+  height: fit-content;
+  max-height: 375px;
+}

@@ -1,0 +1,12 @@
+.root {
+  overflow: auto;
+  height: calc(100vh - 100px);
+}
+
+.empty {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  min-height: 90vh;
+  justify-content: center;
+}

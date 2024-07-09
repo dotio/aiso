@@ -1,0 +1,6 @@
+.skeleton {
+  display: flex;
+  flex-direction: column;
+  height: 65px;
+  padding: 10px 0;
+}

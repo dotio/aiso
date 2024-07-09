@@ -1,0 +1,18 @@
+.links {
+  display: flex;
+  gap: 8px;
+}
+
+.icon_link {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.main_link {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+  color: #5D98EF;
+}

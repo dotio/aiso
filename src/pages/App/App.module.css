@@ -1,0 +1,23 @@
+.input {
+  background: #F6F7FA;
+  border-radius: 12px;
+  height: 40px;
+  border: none;
+  width: 100%;
+  margin-top: 8px;
+}
+
+.toastContainer {
+  border-radius: 12px;
+  background: #FFE3E6;
+  width: 376px;
+  background: none;
+}
+
+.tb {
+  background: transparent;
+}
+
+.toast{
+  background: #FFE3E6;
+}
